@@ -13,7 +13,7 @@ Banco de dados MySQL
 - [x] REST (Http verbs, ResponseEntity)
 
 Extra:
-- [ ] Documentação (SWAGGER)
+- [x] Documentação (SWAGGER)
 - [ ] Deploy (Docker)
 - [ ] Testes Unitários [JUnit]
 - [x] Paginação no findAll
