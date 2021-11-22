@@ -9,7 +9,7 @@ Banco de dados MySQL
 - [ ] Arquitetura MSC (Model, Service, Controller)
 - [ ] Validações no Service
 - [ ] CRUD (Create, Read, Update, Delete)
-- [] REST (Http verbs, ResponseEntity)
+- [ ] REST (Http verbs, ResponseEntity)
 
 Extra:
 - [ ] Documentação (SWAGGER)
