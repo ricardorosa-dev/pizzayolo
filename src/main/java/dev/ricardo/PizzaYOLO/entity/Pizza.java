@@ -1,6 +1,5 @@
 package dev.ricardo.PizzaYOLO.entity;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
