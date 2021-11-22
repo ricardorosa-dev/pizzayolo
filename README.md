@@ -5,20 +5,20 @@ Aplicação de pedidos na Web
 Java 8
 Banco de dados MySQL
 
-- [ ] Entidade Pizza (Atributos: id, nome, descricao, preco)
-- [ ] Preparar banco de dados (MySQL)
-- [ ] Arquitetura MSC (Model, Service, Controller)
-- [ ] Validações no Service
-- [ ] CRUD (Create, Read, Update, Delete)
-- [ ] REST (Http verbs, ResponseEntity)
+- [x] Entidade Pizza (Atributos: id, nome, descricao, preco)
+- [x] Preparar banco de dados (PostgreSQL)
+- [x] Arquitetura MSC (Model, Service, Controller)
+- [x] Validações no Service
+- [x] CRUD (Create, Read, Update, Delete)
+- [x] REST (Http verbs, ResponseEntity)
 
 Extra:
 - [ ] Documentação (SWAGGER)
 - [ ] Deploy (Docker)
 - [ ] Testes Unitários [JUnit]
-- [ ] Paginação no findAll
+- [x] Paginação no findAll
 
-- [ ] Código no Github
+- [x] Código no Github
 - [ ] Documentação do Github (como baixar, como rodar)
 
 Extra:
