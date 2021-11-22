@@ -50,7 +50,7 @@ public class PizzaController {
 	
 	@ApiOperation(value = "Retorna uma pizza com o id enviado")
 	@GetMapping("/{id}")
-	public ResponseEntity<Object> findById(@PathVariable("id") Long id) {
+	public ResponseEntity<Pizza> findById(@PathVariable("id") Long id) {
 			Pizza pizza = service.findById(id);
 			return new ResponseEntity<>(pizza, HttpStatus.OK);
 			

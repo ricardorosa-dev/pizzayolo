@@ -47,7 +47,8 @@ public class PizzaService {
 	}
 	
 	public Pizza update(Long id, Pizza updatePizza) {
-		if (updatePizza.getNome() == null
+		if (id == null
+				|| updatePizza.getNome() == null
 				|| updatePizza.getDescricao() == null
 				|| updatePizza.getPreco() == null) {
 				throw new PizzaIncompleteBodyException(); 
