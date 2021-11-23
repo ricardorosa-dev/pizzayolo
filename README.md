@@ -38,22 +38,22 @@ O projeto visa construir um backend de uma pizzaria, permitindo ver uma lista pa
 
 ## Requisitos
 
-- Aceitar o cadastro de novos sabores de pizza, além de listar e deletar os
+- [x] Aceitar o cadastro de novos sabores de pizza, além de listar e deletar os
 registros.
-- A entidade deve ter os atributos:
+- [x] A entidade deve ter os atributos:
   - id
   - nome
   - descrição
   - preço
-- Fazer validações para diferentes cenários
-- Utilizar as melhores práticas REST! (http verbs, http response codes,
+- [x] Fazer validações para diferentes cenários
+- [x] Utilizar as melhores práticas REST! (http verbs, http response codes,
 etc...)
 
 ### Diferencias (Uma das opções abaixo é obrigatório):
-- Documentar sua API com o Swagger.
-- Subir seu banco de dados utilizando Docker.
-- Escrever testes unitários (jUnit).
-- Paginação no método de listagem
+- [x] Documentar sua API com o Swagger.
+- [ ] Subir seu banco de dados utilizando Docker.
+- [x] Escrever testes unitários (jUnit).
+- [x] Paginação no método de listagem
 
 # Tecnologias utilizadas
 
@@ -106,6 +106,18 @@ Para rodar o projeto em sua máquina, você deverá clonar o repositório e exec
 ## Endpoints
 
 - **/pizza**: Acessa os usuários do sistema de central de erros
+  - GET: **Retorna uma lista paginada de pizzas**. Parâmetros podem ser adicionados para ver a quantidade de itens por página, a página mostrada (iniciando em 0) e para ordenar por algum parâmetro. Exemplo: http://localhost:8080/pizza?size=3&page=1&sort=id
+  - GET BY ID: **Retorna uma pizza específica** através do **id** passado na url. Exemplo: http://localhost:8080/pizza/3
+  - POST: **Cria uma nova pizza** com as informações passadas no corpo da requisição. Exemplo de corpo:
+  ```
+  {
+	"nome": "Camarão2",
+    "descricao": "Camarão ao molho e mussarela",
+    "preco": 32.0
+  }
+  ```
+  - PUT: **Edita os dados de uma pizza** já existente. O id da pizza deve ser passado na url, enquanto que os novos dados vão no corpo da requisição, da mesma forma como no verbo POST.
+  - DELETE: **Remove uma pizza específica** através do id passado na url.
 
 O projeto foi documentado através do Swagger.
 Todas as rotas, métodos e modelos das entidades podem ser vistos com detalhes acessando, dentro do projeto, a url na url /swagger-ui.html).
@@ -114,5 +126,3 @@ Todas as rotas, métodos e modelos das entidades podem ser vistos com detalhes a
 ## Contato
 ricardorosa@gmail.com
 https://www.linkedin.com/in/ricardorosa-dev/
-
-
