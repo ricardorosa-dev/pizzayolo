@@ -38,23 +38,22 @@ O projeto visa construir um backend de uma pizzaria, permitindo ver uma lista pa
 
 ## Requisitos
 
-- A API deverá aceitar o cadastro de novos sabores de pizza, além de listar e deletar os
+- Aceitar o cadastro de novos sabores de pizza, além de listar e deletar os
 registros.
-- Para este cadastro, considere os seguintes atributos:
-- id
-- nome
-- descrição
-- preço
-- Não esqueça, sua API deve ser robusta e à prova de erros! Trate todos os possiveis
-cenários alternativos!
-- E é claro, busque utilizar as melhores práticas REST! (http verbs, http response codes,
+- A entidade deve ter os atributos:
+  - id
+  - nome
+  - descrição
+  - preço
+- Fazer validações para diferentes cenários
+- Utilizar as melhores práticas REST! (http verbs, http response codes,
 etc...)
 
 ### Diferencias (Uma das opções abaixo é obrigatório):
-- Documente sua API com o Swagger.
-- Suba seu banco de dados utilizando Docker.
-- Escreva testes unitários (jUnit).
-- Faça seu endpoint de listagem ser paginado
+- Documentar sua API com o Swagger.
+- Subir seu banco de dados utilizando Docker.
+- Escrever testes unitários (jUnit).
+- Paginação no método de listagem
 
 # Tecnologias utilizadas
 
