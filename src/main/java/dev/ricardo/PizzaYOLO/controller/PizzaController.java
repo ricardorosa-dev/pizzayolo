@@ -38,8 +38,8 @@ public class PizzaController {
 		this.service = service;
 	}
 	
-	@ApiOperation(value = "Retorna uma lista paginada de Pizzas")
 	@GetMapping
+	@ApiOperation(value = "Retorna uma lista paginada de Pizzas")
 	public ResponseEntity<List<Pizza>> findAll(Pageable pageable) {
 		Page<Pizza> page = service.findAll(pageable);
 		
