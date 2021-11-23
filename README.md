@@ -125,4 +125,5 @@ Todas as rotas, métodos e modelos das entidades podem ser vistos com detalhes a
 <!-- CONTACT -->
 ## Contato
 ricardorosa@gmail.com
+
 https://www.linkedin.com/in/ricardorosa-dev/
